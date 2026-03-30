@@ -91,3 +91,29 @@ if (slider && btnPrev && btnNext) {
     slider.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
   });
 }
+
+// WhatsApp Form Submission
+const enquiryForm = document.getElementById('enquiryForm');
+if (enquiryForm) {
+  enquiryForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const email = document.getElementById('email').value;
+    const service = document.getElementById('service').value;
+    const details = document.getElementById('details').value;
+    
+    const businessNumber = "919710708550"; // Abdul Rahim
+    const message = `*New Website Enquiry*%0A
+*Name:* ${name}%0A
+*Phone:* ${phone}%0A
+*Email:* ${email}%0A
+*Service:* ${service}%0A
+*Details:* ${details}`;
+    
+    const whatsappUrl = `https://wa.me/${businessNumber}?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  });
+}
+
