@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aswinaa Fabrication â€” Glass & Aluminium</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">ASWINAA <span>FABRICATION</span></div>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <!-- Geometric ring -->
+    <div class="hero-ring">
+      <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="200" r="190" stroke="#C9A84C" stroke-width="0.5" stroke-dasharray="6 12" opacity="0.4" />
+        <circle cx="200" cy="200" r="155" stroke="#C9A84C" stroke-width="0.3" opacity="0.2" />
+        <circle cx="200" cy="200" r="130" stroke="#C9A84C" stroke-width="1" stroke-dasharray="2 20" opacity="0.3" />
+        <!-- Corner marks -->
+        <line x1="200" y1="10" x2="200" y2="40" stroke="#C9A84C" stroke-width="1" opacity="0.6" />
+        <line x1="200" y1="360" x2="200" y2="390" stroke="#C9A84C" stroke-width="1" opacity="0.6" />
+        <line x1="10" y1="200" x2="40" y2="200" stroke="#C9A84C" stroke-width="1" opacity="0.6" />
+        <line x1="360" y1="200" x2="390" y2="200" stroke="#C9A84C" stroke-width="1" opacity="0.6" />
+        <!-- Diamond -->
+        <polygon points="200,80 280,200 200,320 120,200" stroke="#C9A84C" stroke-width="0.5" fill="none"
+          opacity="0.2" />
+        <!-- Center crosshair -->
+        <circle cx="200" cy="200" r="6" fill="#C9A84C" opacity="0.5" />
+        <circle cx="200" cy="200" r="2" fill="#C9A84C" />
+      </svg>
+    </div>
+
+    <!-- Orbs -->
+    <div class="orb"
+      style="width:300px;height:300px;right:-80px;top:20%;background:radial-gradient(circle,rgba(201,168,76,0.06) 0%,transparent 70%);">
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">Glass & Aluminium Specialists</div>
+      <h1 class="hero-title">
+        CRAFTING<br>
+        SPACES IN<br>
+        <span class="accent">Glass & Steel</span>
+      </h1>
+      <p class="hero-subtitle">Premium fabrication solutions for modern architecture â€” where precision engineering
+        meets refined aesthetics.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get a Quote</a>
+        <a href="#portfolio" class="btn-outline"><span>â†’</span> View Our Work</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Projects Done</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-bar">
+    <div class="marquee-inner">
+      <div class="marquee-item">Aluminium Fabrication</div>
+      <div class="marquee-item">Toughened Glass</div>
+      <div class="marquee-item">False Ceiling</div>
+      <div class="marquee-item">Office Partitions</div>
+      <div class="marquee-item">Office Furniture</div>
+      <div class="marquee-item">Scrap Buying</div>
+      <div class="marquee-item">Glass Works</div>
+      <div class="marquee-item">Aluminium Fabrication</div>
+      <div class="marquee-item">Toughened Glass</div>
+      <div class="marquee-item">False Ceiling</div>
+      <div class="marquee-item">Office Partitions</div>
+      <div class="marquee-item">Office Furniture</div>
+      <div class="marquee-item">Scrap Buying</div>
+      <div class="marquee-item">Glass Works</div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="services-header reveal">
+      <div>
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">Precision <em>Craftsmanship</em><br>In Every Project</h2>
+      </div>
+      <p class="services-desc">From concept to completion, we deliver superior fabrication work using premium-grade
+        materials. Our team of skilled craftsmen ensures every installation meets the highest standards of quality and
+        finish.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="6" y="6" width="36" height="36" rx="1" />
+            <line x1="6" y1="16" x2="42" y2="16" />
+            <line x1="16" y1="6" x2="16" y2="42" />
+            <line x1="6" y1="32" x2="42" y2="32" />
+            <line x1="32" y1="6" x2="32" y2="42" />
+          </svg>
+        </div>
+        <div class="service-name">Aluminium Fabric Works</div>
+        <p class="service-desc">Custom aluminium framing systems for partitions, facades, and structural glazing with
+          impeccable precision and finish.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">02</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="8" y="8" width="32" height="32" rx="2" />
+            <path d="M8 24 L24 8 L40 24 L24 40 Z" opacity="0.5" />
+            <circle cx="24" cy="24" r="4" />
+          </svg>
+        </div>
+        <div class="service-name">Toughened Glass</div>
+        <p class="service-desc">Tempered safety glass solutions for doors, partitions, railings, and facades â€”
+          engineered for strength and elegance.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">03</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="4" y="32" width="40" height="4" />
+            <line x1="10" y1="32" x2="10" y2="16" />
+            <line x1="38" y1="32" x2="38" y2="16" />
+            <line x1="24" y1="32" x2="24" y2="10" />
+            <path d="M4 16 H44" />
+            <path d="M8 16 L24 6 L40 16" />
+          </svg>
+        </div>
+        <div class="service-name">False Ceiling</div>
+        <p class="service-desc">Designer false ceiling systems that transform spaces â€” from sleek modular grids to
+          elegant gypsum and aluminium solutions.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">04</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="6" y="22" width="36" height="20" rx="1" />
+            <rect x="10" y="14" width="28" height="10" />
+            <line x1="14" y1="22" x2="14" y2="42" />
+            <line x1="24" y1="22" x2="24" y2="42" />
+            <line x1="34" y1="22" x2="34" y2="42" />
+            <line x1="6" y1="32" x2="42" y2="32" />
+          </svg>
+        </div>
+        <div class="service-name">Office Furniture</div>
+        <p class="service-desc">Complete office interior solutions â€” procuring and setting up quality furniture that
+          maximizes productivity and aesthetics.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">05</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 40 L8 20 L24 10 L40 20 L40 40 Z" />
+            <rect x="18" y="28" width="12" height="12" />
+            <line x1="8" y1="30" x2="40" y2="30" />
+            <line x1="16" y1="20" x2="16" y2="40" />
+            <line x1="32" y1="20" x2="32" y2="40" />
+          </svg>
+        </div>
+        <div class="service-name">Office Partitions</div>
+        <p class="service-desc">Modular glass and aluminium partition systems that create functional, modern office
+          environments with privacy and style.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-num">06</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="24" cy="24" r="16" />
+            <path d="M16 24 L24 16 L32 24 L24 32 Z" />
+            <line x1="24" y1="8" x2="24" y2="40" opacity="0.4" />
+            <line x1="8" y1="24" x2="40" y2="24" opacity="0.4" />
+          </svg>
+        </div>
+        <div class="service-name">Scrap Buying</div>
+        <p class="service-desc">Professional scrap material procurement â€” aluminium, glass, and metal waste collected
+          responsibly at competitive rates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section style="padding: 120px 60px;" id="about">
+    <div class="about">
+      <div class="about-visual reveal">
+        <div class="about-img-frame">
+          <img src="WhatsApp Image 2026-03-30 at 2.25.22 PM (1).jpeg" alt="Aswinaa Fabrication Office"
+            style="width:100%; height:100%; object-fit:cover; filter: grayscale(50%) contrast(1.2);">
+        </div>
+        <div class="about-accent-box"></div>
+        <div class="about-accent-box2"></div>
+      </div>
+      <div class="about-text reveal">
+        <div class="section-label">Our Story</div>
+        <h2 class="section-title">Built on <em>Expertise,</em><br>Driven by Excellence</h2>
+        <p class="about-body">Aswinaa Fabrication is Chennai's trusted name in glass and aluminium works. Based in K.K.
+          Nagar, we have spent over a decade delivering precision-engineered fabrication solutions to homes, corporate
+          offices, and commercial spaces across Tamil Nadu.</p>
+        <p class="about-body" style="margin-top: 16px;">Every project we undertake reflects our commitment to quality
+          materials, skilled craftsmanship, and timely delivery. We treat every space as a canvas â€” blending
+          structural integrity with visual sophistication.</p>
+
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="feature-icon">âœ¦</div>
+            <div class="feature-text">
+              <strong>Premium Grade Materials</strong>
+              <span>We source only certified aluminium profiles and ISI-marked toughened glass for every project.</span>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="feature-icon">âœ¦</div>
+            <div class="feature-text">
+              <strong>Expert Installation Team</strong>
+              <span>Our trained fabricators and installers ensure a clean, precise finish every single time.</span>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="feature-icon">âœ¦</div>
+            <div class="feature-text">
+              <strong>End-to-End Service</strong>
+              <span>From site measurement and design consultation to installation and after-service â€” we handle it
+                all.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-header reveal">
+      <div>
+        <div class="section-label">Our Work</div>
+        <h2 class="section-title">Projects That <em>Speak</em><br>For Themselves</h2>
+      </div>
+      <a href="#contact" class="btn-outline" style="color: var(--text-muted);">
+        <span>â†’</span> View All Projects
+      </a>
+    </div>
+
+    <div class="portfolio-slider-container reveal">
+      <button class="slider-btn prev" id="sliderPrev"><span>â†</span></button>
+      <div class="portfolio-slider" id="portfolioSlider">
+        
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.23%20PM%20(1).jpeg" alt="Full Glass Partition System"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Corporate Office</div>
+              <div class="portfolio-pname">Full Glass Partition System</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.24%20PM.jpeg" alt="Modern False Ceiling"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">False Ceiling</div>
+              <div class="portfolio-pname">Modern False Ceiling</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.23%20PM%20(2).jpeg" alt="Structural Glazing"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Aluminium Works</div>
+              <div class="portfolio-pname">Structural Glazing</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.22%20PM%20(1).jpeg" alt="Spider Glass Facade"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Toughened Glass</div>
+              <div class="portfolio-pname">Spider Glass Facade</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.22%20PM.jpeg" alt="Meeting Room Glass Box"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Office Partitions</div>
+              <div class="portfolio-pname">Meeting Room Glass Box</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item slide">
+          <img src="WhatsApp%20Image%202026-03-30%20at%202.25.23%20PM.jpeg" alt="Frameless Glass Wall"
+            style="width:100%; height:100%; object-fit:cover;">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-cat">Toughened Glass</div>
+              <div class="portfolio-pname">Frameless Glass Wall</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="slider-btn next" id="sliderNext"><span>â†’</span></button>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="process-header reveal">
+      <div class="section-label">How We Work</div>
+      <h2 class="section-title">A Seamless <em>Process</em><br>From Start to Finish</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-dot">
+          <div class="step-dot-inner">01</div>
+        </div>
+        <h3 class="step-title">Site Visit & Consultation</h3>
+        <p class="step-desc">Our team visits your site, understands your requirements, and provides expert
+          recommendations tailored to your space and budget.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-dot">
+          <div class="step-dot-inner">02</div>
+        </div>
+        <h3 class="step-title">Design & Quotation</h3>
+        <p class="step-desc">We prepare detailed measurements, design layouts, and a transparent cost estimate â€” no
+          hidden charges, no surprises.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-dot">
+          <div class="step-dot-inner">03</div>
+        </div>
+        <h3 class="step-title">Fabrication</h3>
+        <p class="step-desc">Custom fabrication at our workshop using premium-grade aluminium and certified toughened
+          glass to exact specifications.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-dot">
+          <div class="step-dot-inner">04</div>
+        </div>
+        <h3 class="step-title">Installation & Handover</h3>
+        <p class="step-desc">Professional installation by our expert team, followed by a thorough quality check and
+          clean handover of your space.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div>
+        <div class="section-label reveal">Get In Touch</div>
+        <h2 class="section-title reveal">Ready to <em>Transform</em><br>Your Space?</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; margin-top: 28px; margin-bottom: 60px; max-width: 420px;"
+          class="reveal">Contact us today for a free site visit and consultation. Our team is ready to bring your vision
+          to life.</p>
+
+        <div class="contact-info-block">
+          <div class="contact-item reveal">
+            <div class="contact-item-icon">ðŸ“</div>
+            <div>
+              <div class="contact-item-label">Our Location</div>
+              <div class="contact-item-value">No.10, 60 Feet Road, Bharathidesan Colony,<br>K.K. Nagar, Chennai â€“ 600
+                078</div>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-item-icon">ðŸ“ž</div>
+            <div>
+              <div class="contact-item-label">Call Us</div>
+              <div class="contact-item-value">
+                <a href="tel:+919710708550">Abdul Rahim: 97107 08550</a><br>
+                <a href="tel:+919344205293">Sitthick: 93442 05293</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="contact-item-icon">âœ‰ï¸</div>
+            <div>
+              <div class="contact-item-label">Email Us</div>
+              <div class="contact-item-value">
+                <a href="mailto:aswinafabication@gmail.com">aswinafabication@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-side reveal">
+        <form action="mailto:aswinafabication@gmail.com" method="post" enctype="text/plain">
+          <div class="form-grid">
+            <div class="form-row">
+              <label class="form-label">Your Name</label>
+              <input type="text" class="form-input" placeholder="Full name">
+            </div>
+            <div class="form-row">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-input" placeholder="+91 XXXXX XXXXX">
+            </div>
+          </div>
+          <div class="form-row">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="your@email.com">
+          </div>
+          <div class="form-row">
+            <label class="form-label">Service Required</label>
+            <select class="form-input" style="cursor: pointer;">
+              <option value="" style="background: #1A2535;">Select a service...</option>
+              <option style="background: #1A2535;">Aluminium Fabric Works</option>
+              <option style="background: #1A2535;">Toughened Glass</option>
+              <option style="background: #1A2535;">False Ceiling</option>
+              <option style="background: #1A2535;">Office Furniture</option>
+              <option style="background: #1A2535;">Office Partitions</option>
+              <option style="background: #1A2535;">Scrap Buying</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label class="form-label">Project Details</label>
+            <textarea class="form-input" name="Details"
+              placeholder="Tell us about your project, space size, and requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary"
+            style="width: 100%; text-align: center; border: none; cursor: pointer; font-size: 0.78rem; padding: 18px;">
+            Send Enquiry
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">ASWINAA <span>FABRICATION</span></div>
+    <div class="footer-copy">Â© 2026 Aswinaa Fabrication. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/919710708550" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+</body>
+
+</html>
